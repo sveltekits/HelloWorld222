@@ -2,19 +2,19 @@
 	import '../app.css';
 </script>
 
-<div class="main-warp">
-	<div class="main-content">
+<div class="main-layout-warp">
+	<div class="main-layout-content">
 		<slot />
 	</div>
 </div>
 
 <style>
-	.main-warp {
+	.main-layout-warp {
 		display: flex;
 		align-items: center;
 		justify-content: center;
 	}
-	.main-content {
+	.main-layout-content {
 		border: 1px solid rgb(222, 221, 221);
 		width: var(--body-max-width);
 	}
